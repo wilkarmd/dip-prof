@@ -1,0 +1,140 @@
+{
+    "profesores": [
+        {
+            "identificacion": "1448272450",
+            "nombres": "ITSVAN",
+            "apellidos": "ALVEAR CARABALLO",
+            "tipocontrato": "Medio Tiempo",
+            "imagen": "user.png"
+        },
+        {
+            "identificacion": "1916325894",
+            "nombres": "MEYLING KARINA",
+            "apellidos": "CASTRO ARGUMEDO",
+            "tipocontrato": "Catedra",
+            "imagen": "user.png"
+        },
+        {
+            "identificacion": "1138746498",
+            "nombres": "VICTOR MANUEL",
+            "apellidos": "FLOREZ MARTINEZ",
+            "tipocontrato": "3/4 Tiempo",
+            "imagen": "user.png"
+        },
+        {
+            "identificacion": "1699866492",
+            "nombres": "WILMER",
+            "apellidos": "FLOREZ SANCHEZ",
+            "tipocontrato": "Tiempo Completo",
+            "imagen": "user.png"
+        },
+        {
+            "identificacion": "1421222980",
+            "nombres": "JORGE ANDRES",
+            "apellidos": "GAMARRA RODELO",
+            "tipocontrato": "Tiempo Completo",
+            "imagen": "user.png"
+        },
+        {
+            "identificacion": "1467433396",
+            "nombres": "LUIS FELIPE",
+            "apellidos": "GUAZO AHUMEDO",
+            "tipocontrato": "Catedra",
+            "imagen": "user.png"
+        },
+        {
+            "identificacion": "1151045830",
+            "nombres": "NELSON RAFAEL",
+            "apellidos": "JULIO MARTINEZ",
+            "tipocontrato": "Tiempo Completo",
+            "imagen": "user.png"
+        },
+        {
+            "identificacion": "1584635838",
+            "nombres": "RICARDO JOSE",
+            "apellidos": "MARIN HOYOS",
+            "tipocontrato": "Medio Tiempo",
+            "imagen": "user.png"
+        },
+        {
+            "identificacion": "1856816445",
+            "nombres": "WILKAR",
+            "apellidos": "MURILLO DIAZ",
+            "tipocontrato": "Tiempo Completo",
+            "imagen": "user.png"
+        },
+        {
+            "identificacion": "1858673457",
+            "nombres": "JULIO CESAR ",
+            "apellidos": "OCHOA YEPES",
+            "tipocontrato": "Tiempo Completo",
+            "imagen": "user.png"
+        },
+        {
+            "identificacion": "1249564462",
+            "nombres": "RODRIGO JAVIER",
+            "apellidos": "ORTEGA ROMERO",
+            "tipocontrato": "Catedra",
+            "imagen": "user.png"
+        },
+        {
+            "identificacion": "1954735553",
+            "nombres": "CHRISTIAN DAVID",
+            "apellidos": "PEARSON GONZALEZ",
+            "tipocontrato": "Tiempo Completo",
+            "imagen": "user.png"
+        },
+        {
+            "identificacion": "1433323897",
+            "nombres": "OSCAR CELESTINO",
+            "apellidos": "POVEDA SUAREZ",
+            "tipocontrato": "3/4 Tiempo",
+            "imagen": "user.png"
+        },
+        {
+            "identificacion": "1617995228",
+            "nombres": "JULIAN ANDRES",
+            "apellidos": "RODRIGUEZ JULIO ",
+            "tipocontrato": "Medio Tiempo",
+            "imagen": "user.png"
+        },
+        {
+            "identificacion": "1149630346",
+            "nombres": "CARLOS AGUSTO",
+            "apellidos": "SAN MARTIN VELASQUEZ",
+            "tipocontrato": "Tiempo Completo",
+            "imagen": "user.png"
+        },
+        {
+            "identificacion": "1947298868",
+            "nombres": "JORGE ENRIQUE",
+            "apellidos": "SANCHEZ PRETELT",
+            "tipocontrato": "Catedra",
+            "imagen": "user.png"
+        },
+        {
+            "identificacion": "1601436022",
+            "nombres": "JOHAN ENRIQUE",
+            "apellidos": "SUAREZ MARTINEZ",
+            "tipocontrato": "Tiempo Completo",
+            "imagen": "user.png"
+        },
+        {
+            "identificacion": "1231015350",
+            "nombres": "ANDRES DAVID",
+            "apellidos": "TORRES PEREZ",
+            "tipocontrato": "Catedra",
+            "imagen": "user.png"
+        },
+        {
+            "identificacion": "1887866594",
+            "nombres": "DIEGO ANDRES",
+            "apellidos": "VILLAMIZAR MUNIVE",
+            "tipocontrato": "Medio Tiempo",
+            "imagen": "user.png"
+        }
+    ]
+    
+
+}
+   

@@ -1,0 +1,248 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  background-color: rgb(211, 211, 211);
+}
+
+header {
+  background-color: rgb(0, 59, 154);
+  margin-bottom: 0.3rem;
+}
+
+.navbar {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  padding: 1.5rem;
+}
+
+.navbar ul li a {
+  padding: 1.5rem 0.5rem;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.navbar ul li a:hover {
+  color: black;
+}
+
+main {
+  display: flex;
+}
+
+.aside {
+  background-color: #fff;
+  box-shadow: 4px 3px 15px 0px rgba(0, 0, 0, 0.58);
+  -moz-box-shadow: 4px 3px 15px 0px rgba(0, 0, 0, 0.58);
+}
+
+.aside h1 {
+  font-size: 1rem;
+  text-align: center;
+  color: #fff;
+  margin: 0;
+  padding: 0.7rem 12rem;
+  background-color: rgb(0, 59, 154);
+}
+
+.aside ul {
+  list-style: none;
+  padding: 0 0.2rem;
+  padding-bottom: 5.4rem;
+}
+
+.aside ul li a {
+  text-align: start;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.aside ul li {
+  margin-top: 2rem;
+  padding: 1rem 0.5rem;
+  border-left: 3px solid rgb(0, 59, 154);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.aside ul li:hover {
+  background-color: rgb(0, 59, 154);
+}
+
+.principal {
+  width: auto;
+  background-color: #fff;
+  margin: 2rem 1.5rem;
+  height: auto;
+  padding: 3rem;
+  -webkit-box-shadow: 4px 3px 15px 0px rgba(0, 0, 0, 0.58);
+  -moz-box-shadow: 4px 3px 15px 0px rgba(0, 0, 0, 0.58);
+  box-shadow: 4px 3px 15px 0px rgba(0, 0, 0, 0.58);
+}
+
+.box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.box h1 {
+  font-size: 1.4rem;
+  width: 50%;
+}
+
+.box p {
+  font-size: 0.9rem;
+  width: 50%;
+}
+
+.row {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.columns {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.columns label:first-child {
+  font-weight: bold;
+}
+
+.row input[type="text"],
+.row input[type="email"],
+.row input[type="number"] {
+  width: 100%;
+  margin-top: 10px;
+  padding: 0.8rem;
+  border: 1px solid rgb(211, 211, 211);
+  border-radius: 2px;
+  outline: none;
+}
+
+.row input[type="submit"] {
+  width: 100%;
+  margin-top: 10px;
+  padding: 0.8rem;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(0, 59, 154);
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.row .columns input[type="radio"] {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 2px solid rgb(211, 211, 211);
+  cursor: pointer;
+  outline: none;
+}
+
+.row input[type="submit"]:hover {
+  background-color: rgb(0, 59, 154);
+}
+
+.row .columns .radios {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.P {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #f2f2f2;
+  height: 200px;
+}
+
+.identificacion {
+  background-color: rgb(0, 59, 154);
+  color: #fff;
+  width: 100%;
+}
+
+.tipocontrato {
+  background-color: rgb(112, 111, 111);
+  color: #fff;
+  width: 100%;
+  margin-top: auto;
+}
+
+.view-button {
+  margin-top: 0;
+  margin-right: auto;
+}
+
+img {
+  width: 80px;
+  height: 80px;
+  margin-top: 10px;
+  margin-right: auto;
+}
+
+.data {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  text-align: start;
+  padding-right: 20px;
+  font-size: 10px;
+}
+.general {
+  flex-wrap: wrap;
+}
+
+hr {
+  margin-bottom: 10px;
+}
+.name-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.professor-lastname {
+  margin-top: 5px;
+}
+
+.professor-name::after {
+  content: ",";
+  margin-right: 5px;
+}
