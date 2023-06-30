@@ -1,189 +1,180 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link type="text/css" rel="stylesheet" href="style.css" />
-    <script
-      src="https://kit.fontawesome.com/27e9f51df2.js"
-      crossorigin="anonymous"
-    ></script>
-    <title>Principal</title>
-  </head>
 
-  <body>
-    <header>
-      <nav class="navbar">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link type="text/css" rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/27e9f51df2.js" crossorigin="anonymous"></script>
+  <title>Principal</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+      <ul>
+        <li>
+          <i class="fa-solid fa-lightbulb" style="color: #ffffff"></i><a href="#">Tutorias</a>
+        </li>
+        <li>
+          <i class="fa-sharp fa-solid fa-user-graduate" style="color: #ffffff"></i><a href="#">Estudiantes</a>
+        </li>
+        <li>
+          <i class="fa-solid fa-list-check" style="color: #ffffff"></i><a href="#">Proyectos de Aula</a>
+        </li>
+        <li>
+          <i class="fa-solid fa-book" style="color: #ffffff"></i><a href="#">Asignaturas</a>
+        </li>
+        <li>
+          <i class="fa-sharp fa-solid fa-user-tie" style="color: #ffffff"></i><a href="#">Profesores</a>
+        </li>
+        <li>
+          <i class="fa-solid fa-note-sticky" style="color: #ffffff"></i><a href="#">Notas</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <aside>
+      <div class="aside">
+        <h1>Menu</h1>
         <ul>
-          <li>
-            <i class="fa-solid fa-lightbulb" style="color: #ffffff"></i
-            ><a href="#">Tutorias</a>
-          </li>
-          <li>
-            <i
-              class="fa-sharp fa-solid fa-user-graduate"
-              style="color: #ffffff"
-            ></i
-            ><a href="#">Estudiantes</a>
-          </li>
-          <li>
-            <i class="fa-solid fa-list-check" style="color: #ffffff"></i
-            ><a href="#">Proyectos de Aula</a>
-          </li>
-          <li>
-            <i class="fa-solid fa-book" style="color: #ffffff"></i
-            ><a href="#">Asignaturas</a>
-          </li>
-          <li>
-            <i class="fa-sharp fa-solid fa-user-tie" style="color: #ffffff"></i
-            ><a href="#">Profesores</a>
-          </li>
-          <li>
-            <i class="fa-solid fa-note-sticky" style="color: #ffffff"></i
-            ><a href="#">Notas</a>
-          </li>
+          <li><a href="#">Gestionar profesores</a></li>
+          <li><a href="#">Matricular estudiante</a></li>
+          <li><a href="#">Gestionar areas</a></li>
+          <li><a href="#">Asignar coordinador PA</a></li>
+          <li><a href="#">Gestionar Asignaturas</a></li>
+          <li><a href="#">Gestionar secciones</a></li>
+          <li><a href="#">Asignacion academica</a></li>
+          <li><a href="#">Resultados de aprendizaje</a></li>
         </ul>
-      </nav>
-    </header>
-    <main>
-      <aside>
-        <div class="aside">
-          <h1>Menu</h1>
-          <ul>
-            <li><a href="#">Gestionar profesores</a></li>
-            <li><a href="#">Matricular estudiante</a></li>
-            <li><a href="#">Gestionar areas</a></li>
-            <li><a href="#">Asignar coordinador PA</a></li>
-            <li><a href="#">Gestionar Asignaturas</a></li>
-            <li><a href="#">Gestionar secciones</a></li>
-            <li><a href="#">Asignacion academica</a></li>
-            <li><a href="#">Resultados de aprendizaje</a></li>
-          </ul>
+      </div>
+    </aside>
+    <div class="general">
+      <div class="principal">
+        <div class="box">
+          <h1>Crea profesores</h1>
+          <p>
+            Un docente universitario es un <i>profesional</i> que se dedica a la enseñanza en el nivel superior de
+            educacion. Su principal responsabilidad es impartir <b>conocimientos</b> y <b>habilidades</b> a los
+            estudaintes. <u>fomentando su desarrollo academico y profesional.</u>
+          </p>
         </div>
-      </aside>
-      <div class="general">
-        <div class="principal">
-          <div class="box">
-            <h1>Crea profesores</h1>
-            <p>
-              un docente universitario es un <i>profesional</i> que se dedica a la enseñanza en el nivel superior de educacion. Su principal responsabilidad es impartir <b>conocimientos</b> y <b>habilidades</b> a los estudaintes. <u>fomentando su desarrollo academico y profesional.</u>
-            </p>
+        <hr />
+
+        <form class="form">
+          <div class="row">
+            <div class="columns">
+              <label>Primer nombre</label>
+              <input type="text" />
+            </div>
+
+            <div class="columns">
+              <label>Primer Apellido</label>
+              <input type="text" />
+            </div>
           </div>
-          <hr />
 
-          <form class="form">
-            <div class="row">
-              <div class="columns">
-                <label>Primer nombre</label>
-                <input type="text" />
-              </div>
+          <div class="row">
+            <div class="columns">
+              <label>Segundo Nombre</label>
+              <input type="text" />
+            </div>
 
-              <div class="columns">
-                <label>Primer Apellido</label>
-                <input type="text" />
+            <div class="columns">
+              <label>Segundo Apellido</label>
+              <input type="text" />
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="columns">
+              <label>Genero</label>
+              <div class="radios">
+                <input type="radio" name="genero" />
+                <label>Masculino</label>
+
+                <input type="radio" name="genero" />
+                <label>Femenino</label>
               </div>
             </div>
 
-            <div class="row">
-              <div class="columns">
-                <label>Segundo Nombre</label>
-                <input type="text" />
-              </div>
+            <div class="columns">
+              <label>Tipo de contrato</label>
+              <div class="radios">
+                <input type="radio" name="contrato" />
+                <label>Tiempo completo</label>
 
-              <div class="columns">
-                <label>Segundo Apellido</label>
-                <input type="text" />
+                <input type="radio" name="contrato" />
+                <label>Medio tiempo</label>
+
+                <input type="radio" name="contrato" />
+                <label>3/4 tiempo</label>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="columns">
+              <label>Tipo de identificacion</label>
+              <div class="radios">
+                <input type="radio" name="identificacion" />
+                <label>TI</label>
+
+                <input type="radio" name="identificacion" />
+                <label>C.C.</label>
+
+                <input type="radio" name="identificacion" />
+                <label>C.E.</label>
               </div>
             </div>
 
-            <div class="row">
-              <div class="columns">
-                <label>Genero</label>
-                <div class="radios">
-                  <input type="radio" name="genero" />
-                  <label>Masculino</label>
+            <div class="columns">
+              <label>Numero de identificacion</label>
+              <input type="text" />
+            </div>
+          </div>
 
-                  <input type="radio" name="genero" />
-                  <label>Femenino</label>
-                </div>
-              </div>
-
-              <div class="columns">
-                <label>Tipo de contrato</label>
-                <div class="radios">
-                  <input type="radio" name="contrato" />
-                  <label>Tiempo completo</label>
-
-                  <input type="radio" name="contrato" />
-                  <label>Medio tiempo</label>
-
-                  <input type="radio" name="contrato" />
-                  <label>3/4 tiempo</label>
-                </div>
-              </div>
+          <div class="row">
+            <div class="columns">
+              <label>Email</label>
+              <input type="email" />
             </div>
 
-            <div class="row">
-              <div class="columns">
-                <label>Tipo de identificacion</label>
-                <div class="radios">
-                  <input type="radio" name="identificacion" />
-                  <label>TI</label>
-
-                  <input type="radio" name="identificacion" />
-                  <label>C.C.</label>
-
-                  <input type="radio" name="identificacion" />
-                  <label>C.E.</label>
-                </div>
-              </div>
-
-              <div class="columns">
-                <label>Numero de identificacion</label>
-                <input type="text" />
-              </div>
+            <div class="columns">
+              <label>Telefono</label>
+              <input type="number" />
             </div>
+          </div>
 
-            <div class="row">
-              <div class="columns">
-                <label>Email</label>
-                <input type="email" />
-              </div>
-
-              <div class="columns">
-                <label>Telefono</label>
-                <input type="number" />
-              </div>
+          <div class="row">
+            <div class="columns">
+              <label>Direccion</label>
+              <input type="text" />
             </div>
+          </div>
 
-            <div class="row">
-              <div class="columns">
-                <label>Direccion</label>
-                <input type="text" />
-              </div>
+          <div class="row">
+            <div class="columns">
+              <input type="submit" value="Guardar" />
             </div>
+          </div>
+        </form>
+      </div>
 
-            <div class="row">
-              <div class="columns">
-                <input type="submit" value="Guardar" />
-              </div>
-            </div>
-          </form>
+      <div class="principal">
+        <div class="box">
+          <h1>Tabla profesores</h1>
         </div>
-
-        <div class="principal">
-          <div class="box">
-            <h1>Tabla profesores</h1>
-          </div>
-          <hr />
-          <div class="container" id="tablaProfesores">
-          </div>
+        <hr />
+        <div class="container" id="tablaProfesores">
         </div>
       </div>
-    </main>
+    </div>
+  </main>
 
-    <footer></footer>
-    <script src="script.js"></script>
-  </body>
+  <footer></footer>
+  <script src="script.js"></script>
+</body>
+
 </html>
-

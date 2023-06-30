@@ -43,8 +43,6 @@ fetch('bd.json')
       divProfessorLastName.textContent = profesor.apellidos;
       divNameContainer.appendChild(divProfessorLastName);
 
-
-
       const divTipoContrato = document.createElement('div');
       divTipoContrato.classList.add('tipocontrato');
       divTipoContrato.textContent = profesor.tipocontrato;
@@ -54,6 +52,5 @@ fetch('bd.json')
     });
   })
   .catch(error => {
-    console.log('Error al cargar los datos de profesores:', error);
+    console.log('Error, no fue posible cargar los datos de los profesores:', error);
   });
-  
